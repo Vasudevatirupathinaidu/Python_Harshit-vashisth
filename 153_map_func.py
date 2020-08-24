@@ -26,3 +26,4 @@ print()
 words = ['abcd', 'abc', 'abcdef']
 
 print(list(map(lambda word: len(word), words)))
+print(list(map(len, words)))

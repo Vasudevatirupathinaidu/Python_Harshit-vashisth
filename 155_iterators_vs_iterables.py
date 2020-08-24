@@ -3,6 +3,7 @@
 # Iterator is an object, which is used to iterate over an iterable object using __next__() method.
 
 
+
 numbers = [1, 2, 3, 4]  # iterables
 squares = map(lambda a: a**2, numbers)  # iterator
 
